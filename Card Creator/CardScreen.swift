@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CardScreen.swift
 //  Card Creator
 //
 //  Created by Mikael Weiss on 5/4/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CardScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

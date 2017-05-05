@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D4D81B411EBBAB350080FD7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D81B401EBBAB350080FD7B /* AppDelegate.swift */; };
-		D4D81B431EBBAB350080FD7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D81B421EBBAB350080FD7B /* ViewController.swift */; };
+		D4D81B431EBBAB350080FD7B /* CardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D81B421EBBAB350080FD7B /* CardScreen.swift */; };
 		D4D81B461EBBAB350080FD7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D81B441EBBAB350080FD7B /* Main.storyboard */; };
 		D4D81B491EBBAB350080FD7B /* Card_Creator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4D81B471EBBAB350080FD7B /* Card_Creator.xcdatamodeld */; };
 		D4D81B4B1EBBAB350080FD7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D81B4A1EBBAB350080FD7B /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		D4D81B3D1EBBAB350080FD7B /* Card Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D81B401EBBAB350080FD7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4D81B421EBBAB350080FD7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4D81B421EBBAB350080FD7B /* CardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScreen.swift; sourceTree = "<group>"; };
 		D4D81B451EBBAB350080FD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4D81B481EBBAB350080FD7B /* Card_Creator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Card_Creator.xcdatamodel; sourceTree = "<group>"; };
 		D4D81B4A1EBBAB350080FD7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				D4D81B401EBBAB350080FD7B /* AppDelegate.swift */,
-				D4D81B421EBBAB350080FD7B /* ViewController.swift */,
+				D4D81B421EBBAB350080FD7B /* CardScreen.swift */,
 				D4D81B441EBBAB350080FD7B /* Main.storyboard */,
 				D4D81B4A1EBBAB350080FD7B /* Assets.xcassets */,
 				D4D81B4C1EBBAB350080FD7B /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4D81B491EBBAB350080FD7B /* Card_Creator.xcdatamodeld in Sources */,
-				D4D81B431EBBAB350080FD7B /* ViewController.swift in Sources */,
+				D4D81B431EBBAB350080FD7B /* CardScreen.swift in Sources */,
 				D4D81B411EBBAB350080FD7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
