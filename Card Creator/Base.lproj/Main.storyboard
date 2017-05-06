@@ -63,7 +63,11 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" title="All Cards" id="vYT-g5-Ndx">
-                        <barButtonItem key="leftBarButtonItem" title="Settings" id="Dl5-ZF-Gct"/>
+                        <barButtonItem key="leftBarButtonItem" title="Settings" id="Dl5-ZF-Gct">
+                            <connections>
+                                <segue destination="oxg-WN-LKo" kind="show" id="r2S-dp-J5G"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="EZc-mS-uEB">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="show" id="oQr-3m-CY1"/>
