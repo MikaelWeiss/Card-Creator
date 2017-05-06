@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4A838451EBCF82F00EC33D8 /* SettingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A838441EBCF82F00EC33D8 /* SettingScreen.swift */; };
 		D4D81B411EBBAB350080FD7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D81B401EBBAB350080FD7B /* AppDelegate.swift */; };
 		D4D81B431EBBAB350080FD7B /* CardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D81B421EBBAB350080FD7B /* CardScreen.swift */; };
 		D4D81B461EBBAB350080FD7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D81B441EBBAB350080FD7B /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4A838441EBCF82F00EC33D8 /* SettingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingScreen.swift; path = ../SettingScreen.swift; sourceTree = "<group>"; };
 		D4D81B3D1EBBAB350080FD7B /* Card Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D81B401EBBAB350080FD7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4D81B421EBBAB350080FD7B /* CardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScreen.swift; sourceTree = "<group>"; };
@@ -37,6 +39,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4A838461EBCF83B00EC33D8 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modle;
+			sourceTree = "<group>";
+		};
+		D4A838471EBCF84E00EC33D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D4A838481EBCF85400EC33D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D4D81B421EBBAB350080FD7B /* CardScreen.swift */,
+				D4A838441EBCF82F00EC33D8 /* SettingScreen.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D4A838491EBCF87500EC33D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4D81B401EBBAB350080FD7B /* AppDelegate.swift */,
+				D4D81B4A1EBBAB350080FD7B /* Assets.xcassets */,
+				D4D81B4F1EBBAB350080FD7B /* Info.plist */,
+				D4D81B471EBBAB350080FD7B /* Card_Creator.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D4D81B341EBBAB350080FD7B = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +92,12 @@
 		D4D81B3F1EBBAB350080FD7B /* Card Creator */ = {
 			isa = PBXGroup;
 			children = (
-				D4D81B401EBBAB350080FD7B /* AppDelegate.swift */,
-				D4D81B421EBBAB350080FD7B /* CardScreen.swift */,
+				D4A838461EBCF83B00EC33D8 /* Modle */,
+				D4A838471EBCF84E00EC33D8 /* View */,
+				D4A838481EBCF85400EC33D8 /* Controller */,
 				D4D81B441EBBAB350080FD7B /* Main.storyboard */,
-				D4D81B4A1EBBAB350080FD7B /* Assets.xcassets */,
 				D4D81B4C1EBBAB350080FD7B /* LaunchScreen.storyboard */,
-				D4D81B4F1EBBAB350080FD7B /* Info.plist */,
-				D4D81B471EBBAB350080FD7B /* Card_Creator.xcdatamodeld */,
+				D4A838491EBCF87500EC33D8 /* Supporting Files */,
 			);
 			path = "Card Creator";
 			sourceTree = "<group>";
@@ -100,6 +135,7 @@
 					D4D81B3C1EBBAB350080FD7B = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = X7WM6K9T24;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A838451EBCF82F00EC33D8 /* SettingScreen.swift in Sources */,
 				D4D81B491EBBAB350080FD7B /* Card_Creator.xcdatamodeld in Sources */,
 				D4D81B431EBBAB350080FD7B /* CardScreen.swift in Sources */,
 				D4D81B411EBBAB350080FD7B /* AppDelegate.swift in Sources */,
@@ -267,11 +304,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X7WM6K9T24;
 				INFOPLIST_FILE = "Card Creator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MikeStudios.Card-Creator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -280,6 +319,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = X7WM6K9T24;
 				INFOPLIST_FILE = "Card Creator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -308,6 +348,7 @@
 				D4D81B541EBBAB350080FD7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
